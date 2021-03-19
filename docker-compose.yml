@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/taninchot0919/opsta-web:dev
+    ports:
+      - "8080:80"
